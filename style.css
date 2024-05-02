@@ -1,0 +1,38 @@
+ body {
+    margin: 0cm;
+    }
+    .cover { 
+    height: 400px;
+    background-image:url(https://cdn.glitch.global/8610586f-7bfa-4027-b89a-4a19a78924c0/rsz_samantha-weisburg-vgj9buwaqt0-unsplash_2.jpg?v=1713404333071);
+    color:white;
+background-size:cover ;
+background-position: center;
+background-color:rgba (0,0,0,0.5);
+background-blend-mode: darken;
+    }
+
+   
+    .cover-small{ 
+        height:200px;
+        background-blend-mode:normal ;
+     
+    }
+
+    .card { 
+border: 0 !important;
+box-shadow: 0 4px 6px -1px rgba(0,0,0,0.1), 0 2px 4px -1px rgba(0,0,0,0.06);
+
+    }
+
+
+.card-title{
+min-height:3rem;
+}
+
+.card-text{ 
+    min-height:10rem;
+}
+
+.rojo{
+    background-color: red;
+}
