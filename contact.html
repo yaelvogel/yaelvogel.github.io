@@ -1,51 +1,61 @@
 <html>
-<head>
-<title> formulario de contacto</title>
+    <head>
+        <script src= "https://kit.fontawesome.com/eb496ab1a0.js"  crossorigin="anonymus"></script>
+         <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous" />
+        <title> Formulario de contacto</title>
+        <link rel="stylesheet" href="./estilos.css">
+        <link rel="stylesheet" href="./contact.css">
+    </head>
 
-<link rel="stylesheet" href="./estilos.css">
+    <body>
+        <header>
+            <nav class="navbar navbar-expand-lg navbar-light bg-light">
+                <a class="navbar-brand" href="index.html">Dance Studio</a>
+                <ul class="nav">
+                    <li class="nav-item" >
+                        <a class="nav-link" href="index.html" >Inicio</a>
+                    </li>
+                    <li class="nav-item" >
+                        <a class="nav-link" href="contact.html">Contacto</a>
+                    </li>
+                </ul>
+            </nav>
+        </header>
 
+       <div class="container">
+        <div class="container-form ">
+            <div info-form >
+                <h2>Contactanos</h2>
+                <p>Si estas interesado, podés contactarnos.
+                    Cualquier duda o consulta que tengas, dejanos tu mensaje!!</p>
+                    <a href="#">  <i class="fa fa-phone">
 
-<script src= "https://kit.fontawesome.com/eb496ab1a0.js"  crossorigin="anonymus"></script>
+                    </i> +54 11 70285284</a>
+                <a href="#"> <i class="fa fa-envelope"> </i> yaelvogel06@gmail.com</a>
+                <a href="#">  <i class="fa fa-map-marked"> 
+                </i> Ciudad Buenos Aires, Argentina</a>
+            </div>
+            <form action="https://api.web3forms.com/submit" method="POST">
+                <input type="hidden" name="access_key" value="d6722d97-59a9-430c-a404-9fafc5c77846">
+                <input type="text" name="Nombre"
+                    placeholder="Ingresa tu nombre"
+                    class="campo">
+                <input type="email" name="email"
+                    placeholder="Ingresa tu correo"
+                    class="campo">
+                <textarea name="mensaje" 
+                    placeholder="Ingresa tu mensaje">
+                </textarea>
+                <input type="submit" name="enviar"
+                value="Enviar mensaje" class="btn-enviar">
+            </form>
+        </div>
+       </div>
+                    
+        <div class="wsp"> 
+                        <a href="https://wa.me\1170285284?text=Hola%2C%20quiero%20consultar%20por%20las%20clases%20de%20bachata" target="_blank"><u>
+                            Contactar por Whatsapp <i class="fa fa-phone" aria-hidden="true"></i>
+                        </u></a>
 
-
-</head>
-<body>
-    <div class="container-form">
-        <div info-form>
-<h2>Contactanos</h2>
-<p>Si estas interesado, podes contactarnos.
-     Cualquier duda o consulta que tengas, dejanos tu mensaje!!</p>
-     <a href="#">  <i class="fa fa-phone">
-
-     </i> +54 11 70285284</a>
-<a href="#"> <i class="fa fa-envelope"> </i> yaelvogel06@gmail.com</a>
-<a href="#">  <i class="fa fa-map-marked"> 
-</i> ciudad Buenos Aires, Argentina</a>
-</div>
-<form action="https://api.web3forms.com/submit" method="POST">
-    <input type="hidden" name="access_key" value="d6722d97-59a9-430c-a404-9fafc5c77846">
-    <input type="text" name="Nombre"
-    placeholder="Ingresa tu nombre"
-    class="campo">
-    <input type="email" name="email"
-    placeholder="Ingresa tu correo"
-    class="campo">
-    <textarea name="mensaje" 
-    placeholder="Ingresa tu mensaje">
-</textarea>
-<input type="submit" name="enviar"
-value="Enviar mensaje" class="btn-enviar">
-
-</form>
-     </div>
-                
-     <div class="wsp"> 
-         <h2>WhatsApp</h2>
-                    <a href="https://wa.me\1170285284?text=Hola" target="_blank"><u>Contactar por WhatsApp</u></a>
-            </div>
-
-
-
-
-</body>
+    </body>
 </html>

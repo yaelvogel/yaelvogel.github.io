@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <title>clases de bachata</title>
+    <title>Clases de bachata</title>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
 
@@ -11,37 +11,35 @@
       integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
       crossorigin="anonymous"
     />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" />
     <link rel="stylesheet" href="/style.css" />
   </head>
-
   <body>
     <header>
-      <nav class="navbar navbar-expand-lg navbar-light bg-light">
-        <a class="navbar-brand" href="#">LOGO</a>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <a class="navbar-brand" href="index.html">Dance Studio</a>
         <ul class="nav">
-          <li class="nav-item active">
-            <a class="nav-link" href="#">Inicio</a>
-          </li>
-        
-          <li class="nav-item">
-            <a class="nav-link" href="./contact.html">Contacto</a>
-         
-          </li>
+            <li class="nav-item" >
+                <a class="nav-link" href="index.html" >Inicio</a>
+            </li>
+            <li class="nav-item" >
+                <a class="nav-link" href="contact.html">Contacto</a>
+            </li>
         </ul>
-      </nav>
+    </nav>
       <div
         class="cover d-flex justify-content-center align-items-center flex-column"
       >
         <h1>꧁⊹𝙲𝚕𝚊𝚜𝚎𝚜 𝚍𝚎 𝙱𝚊𝚌𝚑𝚊𝚝𝚊⊹꧂</h1>
         <p>𝒷𝒶𝒾𝓁𝒶𝓇, 𝓉𝓇𝒶𝓃𝓈𝓂𝒾𝓉𝒾𝓇, 𝒹𝒾𝓈𝒻𝓇𝓊𝓉𝒶𝓇...𝓎 𝓈𝑒𝓇 𝒻𝑒𝓁𝒾𝓏</p>
-        <button class="btn btn-light">conoce más</button>
+        <button class="btn btn-light" onclick="redirectContact()">conoce más</button>
       </div>
     </header>
 
-    <section>
+    <section class="mb-5">
       <div class="container mt-5">
       <div class="row   justify-content-center">
-            <div class="col-12 col-sm-6 col-md-4 col-lg-3"> 
+            <div class="col-12 col-sm-12 col-md-4 col-lg-3"> 
 
 
       
@@ -52,15 +50,17 @@
 
 
           <div class="card-body">
-            <h5 class="card-title">quienes somos?</h5>
+            <h5 class="card-title">¿Quiénes somos?</h5>
             <p class="card-text">
             Soy yael! Y quiero transmitirte todo mi conocimiento en el baile, implementando tecnicas y tips para llevar tu danza a otro nivel!!!
              </p>
             
+             <div class="space d-none d-md-block mb-3">
+             </div>
           </div>
            </div>
             </div>
-            <div class="col-12 col-sm-6 col-md-4 col-lg-3">   
+            <div class="col-12 col-sm-12 col-md-4 col-lg-3">   
         <div class="card" >
         
            <div class="cover cover-small" style="background-image:url(https://cdn.glitch.global/8610586f-7bfa-4027-b89a-4a19a78924c0/toa-heftiba-_UIVmIBB3JU-unsplash.jpg?v=1713406287546);">
@@ -78,16 +78,17 @@
           </div>
         </div>
             </div>
-        <div class="col-12 col-sm-6 col-md-4 col-lg-3">
+        <div class="col-12 col-sm-12 col-md-4 col-lg-3">
         <div class="card" >
         <div class="cover cover-small" style="background-image:url(https://cdn.glitch.global/8610586f-7bfa-4027-b89a-4a19a78924c0/ivette-pena-uy8-USYsKiY-unsplash.jpg?v=1713406932599);">
         </div>
           <div class="card-body">
-            <h5 class="card-title">Un poquito de historia?</h5>
+            <h5 class="card-title">Un poquito de historia</h5>
             <p class="card-text">
                 La bachata es un género musical originario de la República Dominicana que se desarrolló a partir de la década de 1960. A lo largo de los años, la bachata ha evolucionado y ganado reconocimiento internacional, convirtiéndose en una de las formas musicales más emblemáticas de la cultura dominicana. Con influencias del bolero, el merengue y otros estilos caribeños, la bachata ha conquistado los corazones de millones de personas en todo el mundo con su ritmo pegajoso y sus letras apasionadas.
             </p>
-            
+            <div class="space d-none d-md-block mb-4">
+           </div>
           </div>
         </div>
         </div>
@@ -96,7 +97,18 @@
     </section>
     <section id="contact">
 
-      <div class="rojo">hola seccion</div>
     </section>
+    <hr>
+    <section>
+      <h4 class="text-center">Ubicación</h4>
+      <br>
+      <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3281.6181321016934!2d-58.736425123982826!3d-34.66434567293268!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bcbfe3c894d66b%3A0x17441e591546d823!2sUniversidad%20Nacional%20del%20Oeste%20-%20Sede%20C%C3%B3rdoba!5e0!3m2!1ses!2sar!4v1718377840438!5m2!1ses!2sar" width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+    </section>
+    <script src="./index.js"></script>
+
+
   </body>
+  <footer class="text-center">
+    <p class="m-0">&copy; 2024 Vogel Yael. Todos los derechos reservados.</p>
+  </footer>
 </html>

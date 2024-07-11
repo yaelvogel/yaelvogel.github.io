@@ -3,10 +3,10 @@ body {
     }
     .cover { 
     height: 400px;
-    background-image:url(https://cdn.glitch.global/8610586f-7bfa-4027-b89a-4a19a78924c0/rsz_samantha-weisburg-vgj9buwaqt0-unsplash_2.jpg?v=1713404333071);
+    background-image:url(https://www.shutterstock.com/shutterstock/videos/1084915816/thumb/3.jpg?ip=x480);
     color:white;
 background-size:cover ;
-background-position: center;
+background-position: 80% 30%;
 background-color:rgba (0,0,0,0.5);
 background-blend-mode: darken;
     }
@@ -35,4 +35,13 @@ min-height:3rem;
 
 .rojo{
     background-color: red;
+}
+
+
+footer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 60px !important;
+    background-color: white;
 }
